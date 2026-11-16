@@ -17,12 +17,14 @@ Ce dépôt rassemble mes comptes rendus de travaux pratiques de l'atelier WAN, l
 | 06 | [TP 3 : Configuration du DHCP et NAT](06_TP3_DHCP_NAT) | [PDF](06_TP3_DHCP_NAT/CR_TP3_DHCP_NAT_Amin_MRIRI.pdf) · [Word](06_TP3_DHCP_NAT/CR_TP3_DHCP_NAT_Amin_MRIRI.docx) | [TP3_DHCP_NAT](06_TP3_DHCP_NAT/TP3_DHCP_NAT_Amin_MRIRI.gns3p) |
 | 07 | [TP 4 : VPN IPsec et tunnel GRE over IPsec](07_TP4_VPN_IPsec_GRE) | VPN IPsec : [PDF](07_TP4_VPN_IPsec_GRE/CR_TP4_VPN_IPsec_Amin_MRIRI.pdf) · [Word](07_TP4_VPN_IPsec_GRE/CR_TP4_VPN_IPsec_Amin_MRIRI.docx)<br>GRE over IPsec : [PDF](07_TP4_VPN_IPsec_GRE/CR_TP4_GRE_over_IPsec_Amin_MRIRI.pdf) · [Word](07_TP4_VPN_IPsec_GRE/CR_TP4_GRE_over_IPsec_Amin_MRIRI.docx) | [TP4_IPsec](07_TP4_VPN_IPsec_GRE/TP4_IPsec_Amin_MRIRI.gns3p) · [TP4_GRE_IPsec](07_TP4_VPN_IPsec_GRE/TP4_GRE_IPsec_Amin_MRIRI.gns3p) |
 | 08 | [Capsule vidéo d'un TP avec ActivePresenter (lab BGP)](08_TP_ActivePresenter) | [PDF](08_TP_ActivePresenter/CR_TP_ActivePresenter_Amin_MRIRI.pdf) · [Word](08_TP_ActivePresenter/CR_TP_ActivePresenter_Amin_MRIRI.docx) | [Vidéo MP4](08_TP_ActivePresenter/TP_BGP_Amin_MRIRI.mp4) |
+| 09 | [TP 6 : Configuration de base du Frame Relay (+ capsule vidéo)](09_TP6_FrameRelay_base) | [PDF](09_TP6_FrameRelay_base/CR_TP6_FrameRelay_base_Amin_MRIRI.pdf) · [Word](09_TP6_FrameRelay_base/CR_TP6_FrameRelay_base_Amin_MRIRI.docx) | [TP6_FR_base](09_TP6_FrameRelay_base/TP6_FR_base_Amin_MRIRI.gns3p) · [Vidéo MP4](09_TP6_FrameRelay_base/TP6_FrameRelay_base_Amin_MRIRI.mp4) |
+| 10 | [TP 6 : Frame Relay avancé (hub and spoke)](10_TP6_FrameRelay_avance) | [PDF](10_TP6_FrameRelay_avance/CR_TP6_FrameRelay_avance_Amin_MRIRI.pdf) · [Word](10_TP6_FrameRelay_avance/CR_TP6_FrameRelay_avance_Amin_MRIRI.docx) | [TP6_FR_avance](10_TP6_FrameRelay_avance/TP6_FR_avance_Amin_MRIRI.gns3p) |
 
 ## Contenu des dossiers
 
 - `CR_*.pdf` : compte rendu à lire directement ; `CR_*.docx` : la même version au format Word.
 - `*.gns3p` : projet portable GNS3 (topologie, liens et configurations des équipements).
-- `08_TP_ActivePresenter/TP_BGP_Amin_MRIRI.mp4` : capsule vidéo de démonstration du lab BGP.
+- `*.mp4` (dossiers 08 et 09) : capsules vidéo réalisées avec ActivePresenter (lab BGP et TP 6 Frame Relay de base).
 
 ## Ouvrir un projet GNS3
 
@@ -32,4 +34,4 @@ Ce dépôt rassemble mes comptes rendus de travaux pratiques de l'atelier WAN, l
 
 ## Outils utilisés
 
-GNS3 2.2.61 · Dynamips (Cisco 3725) · VPCS · PuTTY · Wireshark · ActivePresenter 10
+GNS3 2.2.61 · Dynamips (Cisco 3725, commutateurs Frame Relay) · VPCS · PuTTY · Wireshark · ActivePresenter 10
